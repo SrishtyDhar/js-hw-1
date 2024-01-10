@@ -1,0 +1,164 @@
+/* COMMON CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON CSS */
+
+/* menu */
+#menu{
+    background-color: aqua;
+    height: 100vh;
+}
+#menu .box{
+ width: 50px;
+ height: 50px;
+ background-color: brown;
+ position: absolute;
+ right: 0;
+ cursor: pointer;
+}
+#menu .box h5{
+ text-align: center;
+ align-items: center;
+ font-family:'Roboto', sans-serif;
+ font-weight: 800;
+ font-size: 18px;
+ color: whitesmoke;
+}
+.heading h1{
+ background-color: wheat;
+ height: 80px;
+ text-align: center;
+ font-family:'Roboto', sans-serif;
+ font-weight: 800;
+ font-size: 48px;
+ color: whitesmoke;
+}
+#menu .menu-list{
+    width: 0px;
+    transition: 0.5s;
+    height: 100vh;
+    background-color: green;
+}
+#menu .menu-list.active{
+    width: 350px;
+}
+/* menu */
+
+
+/* counter */
+#counter{
+    background-color: pink;
+    height: 100vh;
+}
+
+#counter .container{
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#counter .container button,#counter .container input{
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+} 
+#counter h4{
+    font-family:'Roboto', sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    border-bottom: 5px solid black;
+    margin-bottom: 20px;
+}
+
+/* counter */
+/* range */
+
+#range{
+    background-color: aqua;
+    height: 100vh;
+}
+#range .container{
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#range h3{
+    font-family:'Roboto', sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    border-bottom: 5px solid black;
+    margin-bottom: 20px;
+}
+.range-card h1{
+    text-align: center;
+    background-color: whitesmoke;
+}
+.range-value{
+    cursor: pointer;
+}
+
+/* range end */
+
+/* random color */
+
+#random{
+    background-color: pink;
+    height: 100vh;
+}
+#random .container{
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#random .container button{
+    padding: 10px 20px;
+    font-family:'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    border-bottom: 5px solid black;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+#random .container h3{
+    font-family:'Roboto', sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    border-bottom: 5px solid black;
+    margin-bottom: 20px;
+}
+/* random color */
+
+/* image display */
+
+#image-display{
+    background-color: aqua;
+    height: 100vh;
+}
+#image-display .container{
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-file{
+display: none;
+}
+.test-image{
+    cursor: pointer;
+}
+
+/* image display */
